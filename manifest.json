@@ -1,0 +1,30 @@
+{
+    "name": "Github: Enterprise-theme",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "Changes the Github theme to enterprise",
+    "icons": {
+        "16": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+    },
+    "permissions": [
+        "http://github.com/* https://github.com/* http://*.github.com/* https://*.github.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://github.com/*",
+                "https://github.com/*",
+                "http://*.github.com/*",
+                "https://*.github.com/*"
+            ],
+            "js": [
+                "src/inject/inject.js"
+            ],
+            "css": [
+                "src/inject/inject.css"
+            ]
+        }
+    ]
+}
