@@ -1,4 +1,5 @@
 # Github Enterprise theme (Gothub)
+![Screenshot](https://c2.staticflickr.com/4/3836/14940751760_707669fdb9_h.jpg)
 This is the repository for the Enterprise theme for Github. It enables the theme without requiring you to move over to enterprise. That's all it is.
 
 ## What it does:
